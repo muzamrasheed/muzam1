@@ -30,6 +30,9 @@ public class amazonCreatAccount_direct {
 		
 		
 		driver.findElement(By.id("ap_customer_name")).sendKeys("zayan malik");
+		// github update and cahnges 
+		Thread.sleep(2000);
+		// end of update and change
 		driver.findElement(By.id("ap_email")).sendKeys("zayanmalik0609@gmail.com");
 		driver.findElement(By.id("ap_password")).sendKeys("!Qaz8520");
 		driver.findElement(By.id("ap_password_check")).sendKeys("!Qaz8520");
